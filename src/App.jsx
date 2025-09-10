@@ -9,6 +9,8 @@ import PostsDetails from './pages/PostsDetails'
 import SavedPost from './pages/SavedPost'
 import EditYourPost from './pages/EditYourPost'
 import Editting from './pages/Editting'
+import ForgotPassword from './pages/ForgotPassword'
+import ResetPassword from './pages/ResetPassword'
 
 
 const App = () => {
@@ -24,6 +26,8 @@ const App = () => {
         <Route path='/savedpost/:id' element={<SavedPost/>}/>
         <Route path='/editPost/:id' element={<EditYourPost/>}/>
         <Route path='/editting/:id' element={<Editting/>}/>
+        <Route path='/forgotPassword' element={<ForgotPassword/>}/>
+        <Route path='/reset-password' element={<ResetPassword/>}/>
       </Routes>
     </div>
   )
